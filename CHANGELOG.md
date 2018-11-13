@@ -1,3 +1,6 @@
+## v3.1.3
+1. Updated native ad unit prepare for DFP HB with Facebook Ad Network
+
 ## v3.1.2
 1. Impression tracking happens when the first pixel is visible
 2. Viewability tracking happens when 50% of the adview is visible for 1 second
