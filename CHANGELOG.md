@@ -1,3 +1,6 @@
+## v3.1.4
+1. Optimize downloads so as to download images of any size without running out of memory
+
 ## v3.1.3
 1. Updated native ad unit prepare for DFP HB with Facebook Ad Network
 

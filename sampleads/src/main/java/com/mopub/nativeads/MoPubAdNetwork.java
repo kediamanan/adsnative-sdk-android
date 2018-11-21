@@ -9,6 +9,7 @@ import com.adsnative.ads.ErrorCode;
 import com.adsnative.mediation.CustomAdNetwork;
 import com.adsnative.network.AdResponse;
 import com.adsnative.util.ANLog;
+import com.adsnative.util.ImageLoader;
 import com.mopub.common.util.Drawables;
 
 import org.json.JSONArray;
@@ -173,7 +174,7 @@ public class MoPubAdNetwork extends CustomAdNetwork {
             try {
                 preCacheImages(mContext, imageUrls, new ImageListener() {
                     @Override
-                    public void onImagesCached() {
+                    public void onImagesCached(ImageLoader.ImageContainer imageContainer) {
                         mCustomEventListener.onNativeAdLoaded(MoPubNativeAd.this);
                     }
 
